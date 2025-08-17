@@ -34,3 +34,21 @@
 2025-08-18|Anime Vault|Web App,Database,Community|https://www.producthunt.com/products/anime-vault
 2025-08-18|Sirius Investors: AI-Powered Stock, ETF & Crypto Research Platform|AI,Investment,Stocks|https://www.siriusinvestors.com/
 2025-08-18|Ghost Text: Finally built a free macOS app to solve a problem that kept bugging me|macOS,app development,indie hacking|https://www.indiehackers.com/product/ghost-text?post=lRsYA6KPQ4ZsehXiSr9J
+2025-08-18|OpenBB-finance / OpenBB|python,finance,machine-learning|https://github.com/OpenBB-finance/OpenBB
+2025-08-18|OpenBB-finance / OpenBB|python,finance,machine-learning|https://github.com/OpenBB-finance/OpenBB
+2025-08-18|colmap / colmap|computer-vision,geometry,structure-from-motion|https://github.com/colmap/colmap
+2025-08-18|DataExpert-io / data-engineer-handbook|data,awesome,sql|https://github.com/DataExpert-io/data-engineer-handbook
+2025-08-18|clash-verge-rev / clash-verge-rev|windows,linux,mac|https://github.com/clash-verge-rev/clash-verge-rev
+2025-08-18|MotiaDev / motia|javascript,ruby,python|https://github.com/MotiaDev/motia
+2025-08-18|colmap / colmap|computer-vision,geometry,structure-from-motion|https://github.com/colmap/colmap
+2025-08-18|DataExpert-io / data-engineer-handbook|data,awesome,sql|https://github.com/DataExpert-io/data-engineer-handbook
+2025-08-18|Shimmer Community Membership|Productivity,Health,Community|https://www.producthunt.com/products/shimmer-care
+2025-08-18|GrubPick|Cooking,Artificial Intelligence,Food & Drink|https://www.producthunt.com/products/grubpick
+2025-08-18|Styled Map|Design Tools,Productivity,Maps|https://www.producthunt.com/products/styled-map
+2025-08-18|Logify|Fintech,Money|https://www.producthunt.com/products/logify-4
+2025-08-18|PM Guide - Product Management Frameworks|Design Tools,Productivity,Education|https://www.producthunt.com/products/pm-guide-product-management-frameworks
+2025-08-18|RefineSentence – Grammar & Rewrites|Writing,Education,Languages|https://www.producthunt.com/products/refinesentence-grammar-rewrites
+2025-08-18|OnlyKeywordLab|Writing,Marketing,SEO|https://www.producthunt.com/products/onlykeywordlab
+2025-08-18|Anime Vault|Web App,Database,Community|https://www.producthunt.com/products/anime-vault
+2025-08-18|Sirius Investors: AI-Powered Stock, ETF & Crypto Research Platform|AI,Investment,Stocks|https://www.siriusinvestors.com/
+2025-08-18|Ghost Text: Finally built a free macOS app to solve a problem that kept bugging me|macOS,app development,indie hacking|https://www.indiehackers.com/product/ghost-text?post=lRsYA6KPQ4ZsehXiSr9J
