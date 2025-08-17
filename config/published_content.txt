@@ -1,0 +1,18 @@
+2025-08-17|dtyq / magic: Super Magic (超级麦吉). The first open-source all-in-one AI productivity platform|agent,workflow,ai|https://github.com/dtyq/magic
+2025-08-17|coleam00 / Archon|AI,MCP,Knowledge Management|https://github.com/coleam00/Archon
+2025-08-17|LMCache / LMCache|fast,amd,cuda|https://github.com/LMCache/LMCache
+2025-08-17|emcie-co / parlant||https://github.com/emcie-co/parlant
+2025-08-17|Shubhamsaboo / awesome-llm-apps|python,rag,llms|https://github.com/Shubhamsaboo/awesome-llm-apps
+2025-08-17|tsoding / nob.h|C,build-system,header-only|https://github.com/tsoding/nob.h
+2025-08-17|PixiEditor / PixiEditor|editor,csharp,procedural-generation|https://github.com/PixiEditor/PixiEditor
+2025-08-17|aliasrobotics / cai|artificial-intelligence,cybersecurity,pentesting|https://github.com/aliasrobotics/cai
+2025-08-17|HeadsUp|Productivity,Analytics,Artificial Intelligence|https://www.producthunt.com/products/headsup-2
+2025-08-17|Kuzco|swift,llm,ios|https://github.com/jaredcassoutt/Kuzco
+2025-08-17|Well Extension|Chrome Extensions,Productivity,Fintech|https://www.producthunt.com/products/well-let-robots-chase-receipts-invoices
+2025-08-17|Slashy|Productivity,Marketing,Artificial Intelligence|https://www.producthunt.com/products/slashy-2
+2025-08-17|ChatGPT Query Gold|Analytics,Marketing,SEO|https://www.producthunt.com/products/chatgpt-query-gold
+2025-08-17|Higgsfield Product-to-Video|Photography,Artificial Intelligence,Video|https://www.producthunt.com/products/higgsfield
+2025-08-17|Shimmer ADHD: Helping teens & adults with ADHD|Productivity,Health,Community|https://www.producthunt.com/products/shimmer-care
+2025-08-17|Channel3|API,产品搜索,联盟营销|https://www.producthunt.com/products/channel3
+2025-08-17|Eliminating JavaScript cold starts on AWS Lambda|AWS Lambda,JavaScript,冷启动|https://goose.icu/lambda/
+2025-08-17|Me_diaFast: How I turned Reddit growth problem into a $8.9k side project!|💡 经验讨论|https://www.indiehackers.com/product/me-diafast?post=yZafoNWy3v2J0wHeHHLU
