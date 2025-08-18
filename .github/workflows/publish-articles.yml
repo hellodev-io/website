@@ -21,6 +21,11 @@ on:
         required: false
         default: false
         type: boolean
+      platforms:
+        description: '选择发布平台 (多选用逗号分隔: wechat,juejin,zhihu)'
+        required: false
+        default: 'wechat,juejin,zhihu'
+        type: string
 
 jobs:
   detect-changes:
@@ -101,23 +106,38 @@ jobs:
         AUTHOR_NAME: ${{ vars.AUTHOR_NAME }}
         SOURCE_URL: ${{ vars.SOURCE_URL }}
       run: |
-        if [ -n "$WECHAT_APP_ID" ] && [ -n "$WECHAT_APP_SECRET" ]; then
-          echo "🔄 发布到微信公众号..."
-          uv run python scripts/wechat_publisher.py
+        # 检查是否选择了微信平台
+        SELECTED_PLATFORMS="${{ github.event.inputs.platforms || 'wechat,juejin,zhihu' }}"
+        if [[ "$SELECTED_PLATFORMS" == *"wechat"* ]]; then
+          if [ -n "$WECHAT_APP_ID" ] && [ -n "$WECHAT_APP_SECRET" ]; then
+            echo "🔄 发布到微信公众号..."
+            uv run python scripts/wechat_publisher.py
+          else
+            echo "⏭️ 跳过微信公众号发布（未配置相关 secrets）"
+          fi
         else
-          echo "⏭️ 跳过微信公众号发布（未配置相关 secrets）"
+          echo "⏭️ 跳过微信公众号发布（未在选择的平台中）"
+          # 不生成结果文件，让 update_published_record.py 自然处理为跳过状态
         fi
     
     - name: 发布到掘金
       env:
         JUEJIN_SESSION_ID: ${{ secrets.JUEJIN_SESSION_ID }}
         JUEJIN_CSRF_TOKEN: ${{ secrets.JUEJIN_CSRF_TOKEN }}
+        JUEJIN_COLUMN_ID: ${{ secrets.JUEJIN_COLUMN_ID }}
       run: |
-        if [ -n "$JUEJIN_SESSION_ID" ] && [ -n "$JUEJIN_CSRF_TOKEN" ]; then
-          echo "🔄 发布到掘金..."
-          uv run python scripts/juejin_publisher.py
+        # 检查是否选择了掘金平台
+        SELECTED_PLATFORMS="${{ github.event.inputs.platforms || 'wechat,juejin,zhihu' }}"
+        if [[ "$SELECTED_PLATFORMS" == *"juejin"* ]]; then
+          if [ -n "$JUEJIN_SESSION_ID" ] && [ -n "$JUEJIN_CSRF_TOKEN" ]; then
+            echo "🔄 发布到掘金..."
+            uv run python scripts/juejin_publisher.py
+          else
+            echo "⏭️ 跳过掘金发布（未配置相关 secrets）"
+          fi
         else
-          echo "⏭️ 跳过掘金发布（未配置相关 secrets）"
+          echo "⏭️ 跳过掘金发布（未在选择的平台中）"
+          # 不生成结果文件，让 update_published_record.py 自然处理为跳过状态
         fi
         
     - name: 发布到知乎
@@ -125,11 +145,18 @@ jobs:
         ZHIHU_USERNAME: ${{ secrets.ZHIHU_USERNAME }}
         ZHIHU_PASSWORD: ${{ secrets.ZHIHU_PASSWORD }}
       run: |
-        if [ -n "$ZHIHU_USERNAME" ] && [ -n "$ZHIHU_PASSWORD" ]; then
-          echo "🔄 发布到知乎..."
-          uv run python scripts/zhihu_publisher.py
+        # 检查是否选择了知乎平台
+        SELECTED_PLATFORMS="${{ github.event.inputs.platforms || 'wechat,juejin,zhihu' }}"
+        if [[ "$SELECTED_PLATFORMS" == *"zhihu"* ]]; then
+          if [ -n "$ZHIHU_USERNAME" ] && [ -n "$ZHIHU_PASSWORD" ]; then
+            echo "🔄 发布到知乎..."
+            uv run python scripts/zhihu_publisher.py
+          else
+            echo "⏭️ 跳过知乎发布（未配置相关 secrets）"
+          fi
         else
-          echo "⏭️ 跳过知乎发布（未配置相关 secrets）"
+          echo "⏭️ 跳过知乎发布（未在选择的平台中）"
+          # 不生成结果文件，让 update_published_record.py 自然处理为跳过状态
         fi
     
     - name: 更新发布记录

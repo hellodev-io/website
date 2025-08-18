@@ -11,6 +11,7 @@ class JuejinPublisher:
     def __init__(self):
         self.session_id = os.getenv('JUEJIN_SESSION_ID')
         self.csrf_token = os.getenv('JUEJIN_CSRF_TOKEN')
+        self.column_id = os.getenv('JUEJIN_COLUMN_ID')  # 专辑ID
         
         if not self.session_id or not self.csrf_token:
             raise ValueError("未设置掘金配置，跳过掘金发布")
@@ -65,18 +66,79 @@ class JuejinPublisher:
             "category_id": "6809637767543259144"  # 后端分类ID，需要根据实际情况调整
         }
         
+        # 如果配置了专辑ID，添加到请求中
+        if self.column_id:
+            data["column_id"] = self.column_id
+            print(f"    📚 将文章添加到专辑: {self.column_id}")
+        
         try:
             response = self.session.post(url, json=data)
             result = response.json()
             
             if result.get('err_no') == 0:
-                return result.get('data', {}).get('id')
+                article_id = result.get('data', {}).get('id')
+                
+                # 如果有专辑ID且文章创建成功，尝试将文章添加到专辑
+                if self.column_id and article_id:
+                    self.add_article_to_column(article_id)
+                
+                return article_id
             else:
                 raise Exception(f"创建草稿失败: {result}")
                 
         except Exception as e:
             print(f"⚠️  掘金发布暂不可用: {e}")
             return None
+    
+    def add_article_to_column(self, article_id):
+        """将文章添加到专辑"""
+        if not self.column_id:
+            return False
+        
+        try:
+            # 掘金添加文章到专辑的API（示例）
+            url = "https://api.juejin.cn/content_api/v1/column/add_article"
+            
+            data = {
+                "column_id": self.column_id,
+                "article_id": article_id
+            }
+            
+            response = self.session.post(url, json=data)
+            result = response.json()
+            
+            if result.get('err_no') == 0:
+                print(f"    ✅ 成功添加到专辑: {self.column_id}")
+                return True
+            else:
+                print(f"    ⚠️ 添加到专辑失败: {result}")
+                return False
+                
+        except Exception as e:
+            print(f"    ⚠️ 添加到专辑异常: {e}")
+            return False
+    
+    def get_my_columns(self):
+        """获取我的专辑列表（用于调试和配置）"""
+        try:
+            url = "https://api.juejin.cn/content_api/v1/column/user_columns"
+            
+            response = self.session.get(url)
+            result = response.json()
+            
+            if result.get('err_no') == 0:
+                columns = result.get('data', [])
+                print(f"📚 可用专辑列表:")
+                for column in columns:
+                    print(f"  - ID: {column.get('column_id')} | 名称: {column.get('title')}")
+                return columns
+            else:
+                print(f"获取专辑列表失败: {result}")
+                return []
+                
+        except Exception as e:
+            print(f"获取专辑列表异常: {e}")
+            return []
     
     def publish_article_from_summary(self, article_path, title):
         """根据摘要信息发布文章到掘金"""
@@ -122,6 +184,14 @@ def main():
             summary = json.load(f)
         
         publisher = JuejinPublisher()
+        
+        # 显示专辑配置信息
+        if publisher.column_id:
+            print(f"📚 专辑配置: {publisher.column_id}")
+            print("✅ 文章将自动添加到指定专辑")
+        else:
+            print("📚 未配置专辑ID，文章将发布为独立文章")
+            print("💡 提示: 设置 JUEJIN_COLUMN_ID 环境变量可自动添加到专辑")
         
         success_count = 0
         articles = summary.get('articles', [])
@@ -170,4 +240,16 @@ def main():
             exit(1)
 
 if __name__ == "__main__":
-    main()
+    import sys
+    
+    # 如果传入 --list-columns 参数，列出可用专辑
+    if len(sys.argv) > 1 and sys.argv[1] == '--list-columns':
+        try:
+            publisher = JuejinPublisher()
+            publisher.get_my_columns()
+        except ValueError as e:
+            print(f"❌ {e}")
+        except Exception as e:
+            print(f"❌ 获取专辑列表失败: {e}")
+    else:
+        main()

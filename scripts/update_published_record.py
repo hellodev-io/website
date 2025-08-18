@@ -31,12 +31,8 @@ def check_platform_publish_results():
                     'success': False,
                     'message': f'读取发布结果失败: {e}'
                 }
-        else:
-            # 如果没有结果文件，说明该平台被跳过了
-            results[platform] = {
-                'success': False,
-                'message': '未配置认证信息，跳过发布'
-            }
+        # 如果没有结果文件，不添加到 results 中
+        # 这样外层逻辑就知道这个平台没有执行发布操作
     
     return results
 
@@ -90,28 +86,56 @@ def update_published_record():
         # 检查实际发布状态
         platform_results = check_platform_publish_results()
         
-        # 更新各平台发布状态
+        # 更新各平台发布状态（合并模式）
         platforms = ['wechat', 'juejin', 'zhihu']
         for platform in platforms:
+            # 初始化平台记录（如果不存在）
             if platform not in published_record[file_key]['platforms']:
-                published_record[file_key]['platforms'][platform] = {}
-            
-            # 根据实际发布结果更新状态
-            if platform in platform_results:
-                published_record[file_key]['platforms'][platform].update({
-                    'published': platform_results[platform]['success'],
-                    'published_time': current_time if platform_results[platform]['success'] else None,
-                    'status': 'success' if platform_results[platform]['success'] else 'skipped',
-                    'message': platform_results[platform].get('message', '')
-                })
-            else:
-                # 默认为跳过状态
-                published_record[file_key]['platforms'][platform].update({
+                published_record[file_key]['platforms'][platform] = {
                     'published': False,
                     'published_time': None,
                     'status': 'skipped',
-                    'message': '未配置相关认证信息'
-                })
+                    'message': '未配置认证信息，跳过发布'
+                }
+            
+            current_platform_record = published_record[file_key]['platforms'][platform]
+            
+            # 根据实际发布结果更新状态（仅在有新结果时更新）
+            if platform in platform_results:
+                new_result = platform_results[platform]
+                
+                # 如果这次发布成功，更新为成功状态
+                if new_result['success']:
+                    current_platform_record.update({
+                        'published': True,
+                        'published_time': current_time,
+                        'status': 'success',
+                        'message': new_result.get('message', '发布成功')
+                    })
+                    print(f"    ✅ {platform}: 发布成功")
+                
+                # 如果这次发布失败，且之前没有成功过，更新为失败状态
+                elif not current_platform_record.get('published', False):
+                    current_platform_record.update({
+                        'published': False,
+                        'published_time': None,
+                        'status': 'failed',
+                        'message': new_result.get('message', '发布失败')
+                    })
+                    print(f"    ❌ {platform}: 发布失败 - {new_result.get('message', '')}")
+                
+                # 如果这次发布失败，但之前已经成功过，保持成功状态
+                else:
+                    print(f"    ℹ️ {platform}: 保持之前的成功状态，忽略本次失败")
+            
+            # 如果没有结果文件，保持当前状态不变（可能是跳过或之前的状态）
+            else:
+                if current_platform_record.get('status') == 'skipped':
+                    print(f"    ⏭️ {platform}: 跳过发布")
+                elif current_platform_record.get('published'):
+                    print(f"    ℹ️ {platform}: 保持之前的成功状态")
+                else:
+                    print(f"    ⏭️ {platform}: 跳过发布（未选择或未配置）")
         
         processed_count += 1
         print(f"  📝 已更新: {article['title']}")
