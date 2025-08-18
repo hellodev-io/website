@@ -52,3 +52,20 @@
 2025-08-18|Anime Vault|Web App,Database,Community|https://www.producthunt.com/products/anime-vault
 2025-08-18|Sirius Investors: AI-Powered Stock, ETF & Crypto Research Platform|AI,Investment,Stocks|https://www.siriusinvestors.com/
 2025-08-18|Ghost Text: Finally built a free macOS app to solve a problem that kept bugging me|macOS,app development,indie hacking|https://www.indiehackers.com/product/ghost-text?post=lRsYA6KPQ4ZsehXiSr9J
+2025-08-19|rasbt / LLMs-from-scratch|python,machine-learning,ai|https://github.com/rasbt/LLMs-from-scratch
+2025-08-19|immich-app / immich|nodejs,javascript,photos|https://github.com/immich-app/immich
+2025-08-19|rasbt / LLMs-from-scratch|python,machine-learning,ai|https://github.com/rasbt/LLMs-from-scratch
+2025-08-19|immich-app / immich|nodejs,javascript,photos|https://github.com/immich-app/immich
+2025-08-19|bytebot-ai / bytebot|agent,docker,automation|https://github.com/bytebot-ai/bytebot
+2025-08-19|bytebot-ai / bytebot|agent,docker,automation|https://github.com/bytebot-ai/bytebot
+2025-08-19|mfts / papermark|open-source,pdf,typescript|https://github.com/mfts/papermark
+2025-08-19|enescingoz / awesome-n8n-templates|automation,integration,workflow-automation|https://github.com/enescingoz/awesome-n8n-templates
+2025-08-19|TensorZero|LLMs,AI Infrastructure Tools,Developer Tools|https://github.com/tensorzero/tensorzero
+2025-08-19|Mirror|Social & Community,AI,Health & Fitness|https://www.producthunt.com/products/mirror-11
+2025-08-19|FileFaker|Mac,Productivity,Developer Tools|https://www.producthunt.com/products/filefaker
+2025-08-19|Blink|Developer Tools,Artificial Intelligence,Development|https://www.producthunt.com/products/blink-a-deep-research-agent-for-devs
+2025-08-19|Filo Mail for macOS|Email,Productivity,Artificial Intelligence|https://www.producthunt.com/products/filo-mail
+2025-08-19|Stormy — AI agent for influencer marketing|Productivity,Marketing,Artificial Intelligence|https://www.producthunt.com/products/stormy-influencer-marketing-ai-agent
+2025-08-19|Dualite x Supabase|Developer Tools,Artificial Intelligence,No-Code|https://www.producthunt.com/products/dualite-2
+2025-08-19|Extra Thursday|Email,Artificial Intelligence,Virtual Assistants|https://www.producthunt.com/products/extra-thursday
+2025-08-19|Show HN: A Minimal Hacker News Reader for Apple Watch Built with SwiftUI|swift,watchos,hackernews|https://github.com/wieslawsoltes/HackerNewsWatch
