@@ -22,70 +22,84 @@ class JuejinPublisher:
         self.session = requests.Session()
         self.session.cookies.set('sessionid', self.session_id)
         self.session.headers.update({
-            'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36',
+            'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+            'Accept': 'application/json, text/plain, */*',
+            'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8',
+            'Accept-Encoding': 'gzip, deflate',
+            'Referer': 'https://juejin.cn/editor/drafts',
+            'Origin': 'https://juejin.cn',
             'X-CSRFToken': self.csrf_token,
-            'Content-Type': 'application/json'
+            'Content-Type': 'application/json',
+            'sec-ch-ua': '"Not_A Brand";v="8", "Chromium";v="120", "Google Chrome";v="120"',
+            'sec-ch-ua-mobile': '?0',
+            'sec-ch-ua-platform': '"macOS"',
+            'sec-fetch-dest': 'empty',
+            'sec-fetch-mode': 'cors',
+            'sec-fetch-site': 'same-origin'
         })
     
     def process_markdown_content(self, markdown_content, article_dir):
-        """处理Markdown内容，转换为掘金格式"""
-        # 处理图片路径为绝对URL（如果需要的话）
+        """处理Markdown内容，将本地图片转换为GitHub外链"""
+        # GitHub仓库配置
+        github_base_url = "https://raw.githubusercontent.com/hellodev-io/website/refs/heads/main"
+        
         def replace_images(match):
             img_alt = match.group(1)
             img_path = match.group(2)
             
-            # 如果是相对路径，可能需要转换为绝对URL
+            # 如果是本地相对路径，转换为GitHub外链
             if not img_path.startswith(('http://', 'https://')):
-                # 这里可以上传到图床或转换为绝对路径
-                # 暂时保持原样
-                pass
+                # 处理相对路径，转换为绝对路径
+                if img_path.startswith('./'):
+                    img_path = img_path[2:]  # 移除 './'
+                elif img_path.startswith('../'):
+                    # 处理上级目录
+                    img_path = img_path.replace('../', '')
+                
+                # 构建 GitHub 外链
+                github_url = f"{github_base_url}/{img_path.lstrip('/')}"
+                print(f"    🖼️  图片转换: {img_path} -> GitHub外链")
+                return f'![{img_alt}]({github_url})'
             
             return f'![{img_alt}]({img_path})'
         
-        # 替换图片（如果需要处理的话）
+        # 替换图片路径
         processed_content = re.sub(r'!\[(.*?)\]\((.*?)\)', replace_images, markdown_content)
         
         return processed_content
     
     def create_draft(self, title, content, tags=None):
-        """创建掘金草稿"""
+        """创建掘金草稿（基于逆向工程发现的真实API）"""
         if tags is None:
             tags = ["技术", "开发", "HelloDev"]
         
-        # 掘金API接口（示例，实际API可能不同）
-        url = "https://api.juejin.cn/content_api/v1/article/create"
+        # 掘金草稿创建API（已验证可用）
+        url = "https://api.juejin.cn/content_api/v1/article_draft/create"
         
+        # 根据逆向工程发现的数据格式
         data = {
             "title": title,
             "content": content,
-            "cover_image": "",
-            "is_gfw": 0,
-            "result_type": "markdown",
-            "link_url": "",
-            "edit_type": 10,
-            "html_content": markdown.markdown(content),
             "mark_content": content,
-            "tag_ids": [],  # 需要获取标签ID
-            "category_id": "6809637767543259144"  # 后端分类ID，需要根据实际情况调整
+            "tag_ids": [],
+            "category_id": "6809637767543259144"  # 后端分类
         }
         
-        # 如果配置了专辑ID，添加到请求中
+        # 暂时移除专辑功能，因为草稿创建API不支持直接添加到专辑
+        # 可以在草稿创建后手动添加
         if self.column_id:
-            data["column_id"] = self.column_id
-            print(f"    📚 将文章添加到专辑: {self.column_id}")
+            print(f"    📚 已配置专辑ID: {self.column_id}（需手动添加）")
         
         try:
             response = self.session.post(url, json=data)
             result = response.json()
             
             if result.get('err_no') == 0:
-                article_id = result.get('data', {}).get('id')
+                draft_id = result.get('data', {}).get('id')
+                print(f"    ✅ 成功创建草稿: {draft_id}")
+                print(f"    🔗 编辑链接: https://juejin.cn/editor/drafts/{draft_id}")
                 
-                # 如果有专辑ID且文章创建成功，尝试将文章添加到专辑
-                if self.column_id and article_id:
-                    self.add_article_to_column(article_id)
-                
-                return article_id
+                return draft_id
             else:
                 raise Exception(f"创建草稿失败: {result}")
                 
@@ -156,16 +170,18 @@ class JuejinPublisher:
         processed_content = self.process_markdown_content(markdown_content, article_dir)
         
         # 创建草稿
-        article_id = self.create_draft(title, processed_content)
+        draft_id = self.create_draft(title, processed_content)
         
-        if article_id:
+        if draft_id:
             return {
-                'article_id': article_id,
-                'published_time': datetime.now().isoformat(),
-                'platform': 'juejin'
+                'draft_id': draft_id,
+                'edit_url': f"https://juejin.cn/editor/drafts/{draft_id}",
+                'created_time': datetime.now().isoformat(),
+                'platform': 'juejin',
+                'status': 'draft_created'
             }
         else:
-            raise Exception("掘金发布失败")
+            raise Exception("掘金草稿创建失败")
 
 def main():
     """主函数"""
@@ -206,11 +222,13 @@ def main():
                     article['path'], 
                     article['title']
                 )
-                print(f"✅ 掘金发布成功！article_id: {result['article_id']}")
+                print(f"✅ 掘金草稿创建成功！draft_id: {result['draft_id']}")
+                print(f"🔗 编辑链接: {result['edit_url']}")
                 publish_result['details'].append({
                     'title': article['title'],
                     'success': True,
-                    'article_id': result['article_id']
+                    'draft_id': result['draft_id'],
+                    'edit_url': result['edit_url']
                 })
                 success_count += 1
             except Exception as e:
