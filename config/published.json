@@ -52,7 +52,7 @@
   "2025/08-19/index.md": {
     "title": "HelloDev.io 开发者日报 - 第 3 期 | 2025 年 08 月 19 日",
     "content_hash": "",
-    "last_updated": "2025-08-19T01:55:07.587558",
+    "last_updated": "2025-08-20T07:54:37.578856",
     "platforms": {
       "wechat": {
         "published": true,
@@ -61,10 +61,10 @@
         "message": "成功发布 1/1 篇文章"
       },
       "juejin": {
-        "published": false,
-        "published_time": null,
-        "status": "skipped",
-        "message": "未配置认证信息，跳过发布"
+        "published": true,
+        "published_time": "2025-08-20T07:54:37.578856",
+        "status": "success",
+        "message": "成功发布 1/1 篇文章"
       },
       "zhihu": {
         "published": false,
