@@ -257,8 +257,17 @@ def main():
             print("📚 未配置专辑ID，文章将发布为独立文章")
             print("💡 提示: 设置 JUEJIN_COLUMN_ID 环境变量可自动添加到专辑")
         
+        # 兼容多种摘要文件格式（参考微信脚本）
+        articles = summary.get('article_info', [])
+        # 兼容单个文章和文章列表格式
+        if isinstance(articles, dict):
+            articles = [articles]
+        elif 'articles' in summary:
+            articles = summary['articles']
+        
+        print(f"🔍 找到 {len(articles)} 篇文章待发布")
+        
         success_count = 0
-        articles = summary.get('articles', [])
         
         for article in articles:
             try:
@@ -302,7 +311,15 @@ def main():
         with open(result_file, 'w', encoding='utf-8') as f:
             json.dump(publish_result, f, indent=2, ensure_ascii=False)
         
-        if not publish_result['success'] and '未配置认证信息' not in publish_result['message']:
+        # 只在真正的错误时退出，跳过发布不应该算作错误
+        should_exit = (
+            not publish_result['success'] and 
+            '未配置认证信息' not in publish_result['message'] and
+            '未找到发布摘要文件' not in publish_result['message'] and
+            len(publish_result['message']) > 0  # 确保有实际错误消息
+        )
+        if should_exit:
+            print(f"🔍 退出条件检查: success={publish_result['success']}, message='{publish_result['message']}'")
             exit(1)
 
 if __name__ == "__main__":
