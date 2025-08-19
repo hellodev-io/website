@@ -6,15 +6,18 @@ import markdown
 import re
 from pathlib import Path
 from datetime import datetime
+from juejin_token_manager import JuejinTokenManager
 
 class JuejinPublisher:
     def __init__(self):
-        self.session_id = os.getenv('JUEJIN_SESSION_ID')
-        self.csrf_token = os.getenv('JUEJIN_CSRF_TOKEN')
-        self.column_id = os.getenv('JUEJIN_COLUMN_ID')  # 专辑ID
+        # 使用令牌管理器获取有效的令牌（每次都刷新）
+        try:
+            self.token_manager = JuejinTokenManager()
+            self.session_id, self.csrf_token = self.token_manager.get_valid_tokens()
+        except Exception as e:
+            raise ValueError(f"获取掘金令牌失败: {e}")
         
-        if not self.session_id or not self.csrf_token:
-            raise ValueError("未设置掘金配置，跳过掘金发布")
+        self.column_id = os.getenv('JUEJIN_COLUMN_ID')  # 专辑ID
         
         self.session = requests.Session()
         self.session.cookies.set('sessionid', self.session_id)
