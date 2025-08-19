@@ -14,6 +14,8 @@ class JuejinPublisher:
         try:
             self.token_manager = JuejinTokenManager()
             self.session_id, self.csrf_token = self.token_manager.get_valid_tokens()
+            print(f"🔍 获取到令牌: sessionid={self.session_id[:8]}...{self.session_id[-8:]}")
+            print(f"🔍 获取到令牌: csrf_token={self.csrf_token[:8]}...{self.csrf_token[-8:]}")
         except Exception as e:
             raise ValueError(f"获取掘金令牌失败: {e}")
         
@@ -21,6 +23,7 @@ class JuejinPublisher:
         
         self.session = requests.Session()
         self.session.cookies.set('sessionid', self.session_id)
+        print(f"🔍 设置Session Cookies: sessionid={self.session_id[:8]}...{self.session_id[-8:]}")
         self.session.headers.update({
             'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
             'Accept': 'application/json, text/plain, */*',
@@ -119,9 +122,22 @@ class JuejinPublisher:
         if self.column_id:
             print(f"    📚 已配置专辑ID: {self.column_id}（需手动添加）")
         
+        print(f"    🔍 请求URL: {url}")
+        print(f"    🔍 请求Headers: {dict(self.session.headers)}")
+        print(f"    🔍 请求数据: title={data['title']}, content_length={len(data['content'])}")
+        
         try:
             response = self.session.post(url, json=data)
+            print(f"    🔍 响应状态码: {response.status_code}")
+            print(f"    🔍 响应Headers: {dict(response.headers)}")
+            
+            if response.status_code != 200:
+                print(f"    ❌ HTTP错误: {response.status_code}")
+                print(f"    📄 响应内容: {response.text}")
+                return None
+                
             result = response.json()
+            print(f"    🔍 完整响应: {result}")
             
             if result.get('err_no') == 0:
                 draft_id = result.get('data', {}).get('id')

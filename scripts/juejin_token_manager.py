@@ -93,17 +93,26 @@ class JuejinTokenManager:
             
             # 使用用户信息API测试令牌有效性
             test_url = "https://api.juejin.cn/user_api/v1/user/get"
+            print(f"    🔍 测试URL: {test_url}")
+            print(f"    🔍 测试Headers: {dict(test_session.headers)}")
+            print(f"    🔍 测试Cookies: sessionid={session_id[:8]}...{session_id[-8:]}")
+            
             response = test_session.get(test_url, timeout=10)
+            print(f"    🔍 验证响应状态: {response.status_code}")
             
             if response.status_code == 200:
                 result = response.json()
+                print(f"    🔍 验证响应内容: {result}")
                 if result.get('err_no') == 0:
+                    user_info = result.get('data', {})
+                    print(f"    ✅ 令牌验证成功, 用户ID: {user_info.get('user_id', 'unknown')}")
                     return True
                 else:
-                    print(f"❌ 令牌验证失败: {result.get('err_msg', '未知错误')}")
+                    print(f"    ❌ 令牌验证失败: {result.get('err_msg', '未知错误')}")
                     return False
             else:
-                print(f"❌ 令牌验证请求失败: HTTP {response.status_code}")
+                print(f"    ❌ 令牌验证请求失败: HTTP {response.status_code}")
+                print(f"    📄 响应内容: {response.text}")
                 return False
                 
         except Exception as e:
