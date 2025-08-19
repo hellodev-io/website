@@ -39,9 +39,29 @@ class JuejinPublisher:
         })
     
     def process_markdown_content(self, markdown_content, article_dir):
-        """处理Markdown内容，将本地图片转换为GitHub外链"""
+        """处理Markdown内容，移除开头标题并将本地图片转换为GitHub外链"""
         # GitHub仓库配置
         github_base_url = "https://raw.githubusercontent.com/hellodev-io/website/refs/heads/main"
+        
+        # 移除开头的主标题（# 标题）
+        lines = markdown_content.split('\n')
+        processed_lines = []
+        title_removed = False
+        
+        for line in lines:
+            # 跳过开头的主标题（以单个#开头的行）
+            if not title_removed and line.strip().startswith('# ') and not line.strip().startswith('## '):
+                title_removed = True
+                print(f"    🗑️  移除开头标题: {line.strip()}")
+                continue
+            # 跳过标题后的空行
+            elif not title_removed and line.strip() == '':
+                continue
+            else:
+                title_removed = True
+                processed_lines.append(line)
+        
+        processed_content = '\n'.join(processed_lines)
         
         def replace_images(match):
             img_alt = match.group(1)
@@ -57,14 +77,14 @@ class JuejinPublisher:
                     img_path = img_path.replace('../', '')
                 
                 # 构建 GitHub 外链
-                github_url = f"{github_base_url}/{img_path.lstrip('/')}"
-                print(f"    🖼️  图片转换: {img_path} -> GitHub外链")
+                github_url = f"{github_base_url}/{article_dir}/{img_path.lstrip('/')}"
+                print(f"    🖼️  图片转换: {img_path} -> GitHub外链: {github_url}")
                 return f'![{img_alt}]({github_url})'
             
             return f'![{img_alt}]({img_path})'
         
         # 替换图片路径
-        processed_content = re.sub(r'!\[(.*?)\]\((.*?)\)', replace_images, markdown_content)
+        processed_content = re.sub(r'!\[(.*?)\]\((.*?)\)', replace_images, processed_content)
         
         return processed_content
     
@@ -82,7 +102,16 @@ class JuejinPublisher:
             "content": content,
             "mark_content": content,
             "tag_ids": [],
-            "category_id": "6809637767543259144"  # 后端分类
+            "category_id": "6809637767543259144",  # 后端分类
+            "brief_content": "",  # 简介
+            "edit_type": 10,  # 编辑器类型，可能是 markdown
+            "html_content": "deprecated",  # 一些API要求这个字段
+            "cover_image": "",  # 封面图
+            "is_gfw": 0,  # 是否过墙
+            "is_english": 0,  # 是否英文
+            "is_original": 1,  # 是否原创
+            "user_interact": {},  # 用户交互
+            "tags": []  # 标签数组
         }
         
         # 暂时移除专辑功能，因为草稿创建API不支持直接添加到专辑
