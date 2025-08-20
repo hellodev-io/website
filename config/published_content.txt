@@ -87,3 +87,21 @@
 2025-08-20|AI Transcribe|Productivity,Notes,Artificial Intelligence|https://www.producthunt.com/products/ai-transcribe-speech-to-text
 2025-08-20|From failure to $1M ARR in 8 months|AI,Startup,Pivot|https://www.indiehackers.com/post/tech/from-failure-to-1m-arr-in-8-months-oA0AqL4jY25lxrQ4uGBl
 2025-08-20|From weekend experiment to $20k/mo business|SaaS,Startup,IndieHacking|https://www.indiehackers.com/post/tech/from-weekend-experiment-to-20k-mo-business-aP4YP2DouOUuicCtcnCB
+2025-08-21|moeru-ai/airi: Self-hosted AI Companion Inspired by Neuro-sama|live2d,vrm,digital-life|https://github.com/moeru-ai/airi
+2025-08-21|puppeteer / puppeteer|testing,firefox,chrome|https://github.com/puppeteer/puppeteer
+2025-08-21|Leantime / leantime|php,trello,jira|https://github.com/Leantime/leantime
+2025-08-21|n8n-io / self-hosted-ai-starter-kit|ai,self-hosted,starter-kit|https://github.com/n8n-io/self-hosted-ai-starter-kit
+2025-08-21|laude-institute/terminal-bench: A benchmark for LLMs on complicated tasks in the terminal|AI,LLM,benchmark|https://github.com/laude-institute/terminal-bench
+2025-08-21|simstudioai/sim: Sim is an open-source AI agent workflow builder|react,automation,typescript|https://github.com/simstudioai/sim
+2025-08-21|ComposersDesktop / CDP8|audio processing,sound synthesis,composition tools|https://github.com/ComposersDesktop/CDP8
+2025-08-21|bitwarden / clients||https://github.com/bitwarden/clients
+2025-08-21|Warestack|Automation tools,LLMs,Observability tools|https://www.producthunt.com/products/warestack
+2025-08-21|Kira.art|Design Tools,Productivity,Artificial Intelligence|https://www.producthunt.com/products/kira-art
+2025-08-21|Obsidian Bases|Notes,Text Editors,Database|https://www.producthunt.com/products/obsidian
+2025-08-21|ChartDB v2|Developer Tools,GitHub,Database|https://www.producthunt.com/products/chartdb
+2025-08-21|Notte|AI Infrastructure Tools,Browser Automation,Developer Tools|https://www.producthunt.com/products/notte
+2025-08-21|Visla|AI,Video Production,Team Collaboration|https://www.producthunt.com/products/visla
+2025-08-21|Cosmo|Education,Artificial Intelligence,Online Learning|https://www.producthunt.com/products/cosmo-2
+2025-08-21|Momentum for iOS|iOS,Health & Fitness,Productivity|https://www.producthunt.com/products/momentum-for-ios
+2025-08-21|How I’m marketing BlogBowl to get some exposure|💡 经验讨论|https://www.indiehackers.com/product/blogbowl?post=3FkbhfAMJwXRLepER0xw
+2025-08-21|Paying the bills with a $13k/mo business while testing product ideas|Indie Hackers,Entrepreneurship,Side Projects|https://www.indiehackers.com/post/tech/paying-the-bills-with-a-13k-mo-business-while-testing-product-ideas-MladIxzuGskkXpj7eUXC
