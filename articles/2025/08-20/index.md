@@ -109,7 +109,7 @@ Eleven Music API 是 Eleven Labs 推出的首个音乐生成 API，专门训练�
 
 > 🔗 **产品链接**
 > 
-> /products/elevenlabs
+> https://www.producthunt.com/products/elevenlabs
 
 ---
 
