@@ -69,3 +69,21 @@
 2025-08-19|Dualite x Supabase|Developer Tools,Artificial Intelligence,No-Code|https://www.producthunt.com/products/dualite-2
 2025-08-19|Extra Thursday|Email,Artificial Intelligence,Virtual Assistants|https://www.producthunt.com/products/extra-thursday
 2025-08-19|Show HN: A Minimal Hacker News Reader for Apple Watch Built with SwiftUI|swift,watchos,hackernews|https://github.com/wieslawsoltes/HackerNewsWatch
+2025-08-20|bytedance / UI-TARS|research,multimodal,vision-language model|https://github.com/bytedance/UI-TARS
+2025-08-20|aaPanel / BillionMail|mail,server,email|https://github.com/aaPanel/BillionMail
+2025-08-20|HunxByts / GhostTrack|python,linux,osint|https://github.com/HunxByts/GhostTrack
+2025-08-20|HeyPuter / puter|javascript,open-source,gui|https://github.com/HeyPuter/puter
+2025-08-20|awslabs/mcp: AWS MCP Servers|aws,mcp,mcp-servers|https://github.com/awslabs/mcp
+2025-08-20|aaPanel / BillionMail|mail,server,email|https://github.com/aaPanel/BillionMail
+2025-08-20|imsyy / SPlayer|javascript,music,music-player|https://github.com/imsyy/SPlayer
+2025-08-20|imsyy / SPlayer|javascript,music,music-player|https://github.com/imsyy/SPlayer
+2025-08-20|Eleven Music API|AI,music,API|/products/elevenlabs
+2025-08-20|Chance AI: Curiosity Lens|Education,Photography,Search|https://www.producthunt.com/products/chance-ai
+2025-08-20|Fei: The Production Grade Autonomous Engineer|Artificial Intelligence,Vibe coding,AI Coding Assistants|https://www.producthunt.com/products/autonomyai
+2025-08-20|April|Email,Productivity,Artificial Intelligence|https://www.producthunt.com/products/april-yc-s25
+2025-08-20|Filtro: Your Product Hunt Filter|Chrome Extensions,Productivity,GitHub|https://www.producthunt.com/products/filtro
+2025-08-20|GPT Burger|Productivity,Developer Tools,Artificial Intelligence|https://github.com/RickyHoHo/GPT-Burger
+2025-08-20|TinyRoll|iOS,Productivity,Photography|https://www.producthunt.com/products/tinyroll-clean-your-photo-album
+2025-08-20|AI Transcribe|Productivity,Notes,Artificial Intelligence|https://www.producthunt.com/products/ai-transcribe-speech-to-text
+2025-08-20|From failure to $1M ARR in 8 months|AI,Startup,Pivot|https://www.indiehackers.com/post/tech/from-failure-to-1m-arr-in-8-months-oA0AqL4jY25lxrQ4uGBl
+2025-08-20|From weekend experiment to $20k/mo business|SaaS,Startup,IndieHacking|https://www.indiehackers.com/post/tech/from-weekend-experiment-to-20k-mo-business-aP4YP2DouOUuicCtcnCB
