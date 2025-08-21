@@ -105,3 +105,21 @@
 2025-08-21|Momentum for iOS|iOS,Health & Fitness,Productivity|https://www.producthunt.com/products/momentum-for-ios
 2025-08-21|How I’m marketing BlogBowl to get some exposure|💡 经验讨论|https://www.indiehackers.com/product/blogbowl?post=3FkbhfAMJwXRLepER0xw
 2025-08-21|Paying the bills with a $13k/mo business while testing product ideas|Indie Hackers,Entrepreneurship,Side Projects|https://www.indiehackers.com/post/tech/paying-the-bills-with-a-13k-mo-business-while-testing-product-ideas-MladIxzuGskkXpj7eUXC
+2025-08-22|firecrawl / firecrawl|markdown,crawler,data|https://github.com/firecrawl/firecrawl
+2025-08-22|google / googletest|C++,Testing,Framework|https://github.com/google/googletest
+2025-08-22|Budibase / budibase|open-source,low-code,no-code|https://github.com/Budibase/budibase
+2025-08-22|nextjs / saas-starter|postgres,stripe,nextjs|https://github.com/nextjs/saas-starter
+2025-08-22|plait-board / drawnix|productivity,drawing,collaboration|https://github.com/plait-board/drawnix
+2025-08-22|skills/introduction-to-github: Get started using GitHub in less than an hour|git,commits,pull-requests|https://github.com/skills/introduction-to-github
+2025-08-22|google / googletest|C++,Testing,Framework|https://github.com/google/googletest
+2025-08-22|Budibase / budibase|open-source,low-code,no-code|https://github.com/Budibase/budibase
+2025-08-22|Mocke|Email marketing,Lead generation software,AI sales tools|https://www.producthunt.com/products/mocke-mock-cold-email-campaigns
+2025-08-22|Macaly 2.0|Analytics,Marketing,SEO|https://www.producthunt.com/products/macaly
+2025-08-22|Daymi|Messaging,Artificial Intelligence,Bots|https://www.producthunt.com/products/daymi-2
+2025-08-22|Disco.dev|API,Open Source,Artificial Intelligence|https://www.producthunt.com/products/disco-dev
+2025-08-22|Puck: Open-source visual editor for React|Open Source,Website Builder,GitHub|https://www.producthunt.com/products/puck
+2025-08-22|Broxi AI|Artificial Intelligence,Tech,No-Code|https://www.producthunt.com/products/broxi-ai
+2025-08-22|ReadyBase|Productivity,Social Media,Artificial Intelligence|https://www.producthunt.com/products/readybase
+2025-08-22|Syncly Social|Social Media,Marketing,Artificial Intelligence|https://www.producthunt.com/products/syncly
+2025-08-22|Hitting $12k/mo with a boilerplate|boilerplate,SaaS,indie hacking|https://www.indiehackers.com/post/j2n9ECQvdJBw9Gvf4TKA
+2025-08-22|Hitting $100M ARR in eight months with an AI software builder|AI,SaaS,Startup|https://www.indiehackers.com/post/ONMaxjB3rix2PnBCnrDr
