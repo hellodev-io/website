@@ -123,3 +123,21 @@
 2025-08-22|Syncly Social|Social Media,Marketing,Artificial Intelligence|https://www.producthunt.com/products/syncly
 2025-08-22|Hitting $12k/mo with a boilerplate|boilerplate,SaaS,indie hacking|https://www.indiehackers.com/post/j2n9ECQvdJBw9Gvf4TKA
 2025-08-22|Hitting $100M ARR in eight months with an AI software builder|AI,SaaS,Startup|https://www.indiehackers.com/post/ONMaxjB3rix2PnBCnrDr
+2025-08-23|vllm-project / vllm|amd,cuda,inference|https://github.com/vllm-project/vllm
+2025-08-23|QwenLM / Qwen3-Coder|AI,Code Model,LLM|https://github.com/QwenLM/Qwen3-Coder
+2025-08-23|nautechsystems / nautilus_trader|python,rust,machine-learning|https://github.com/nautechsystems/nautilus_trader
+2025-08-23|dream-num / univer|productivity,slide,grid|https://github.com/dream-num/univer
+2025-08-23|dyad-sh / dyad|github,react,typescript|https://github.com/dyad-sh/dyad
+2025-08-23|musistudio / claude-code-router|Claude Code,Model Routing,Multi-Provider Support|https://github.com/musistudio/claude-code-router
+2025-08-23|frappe / hrms|javascript,python,open-source|https://github.com/frappe/hrms
+2025-08-23|dataease / SQLBot|text-to-sql,rag,nl2sql|https://github.com/dataease/SQLBot
+2025-08-23|GoodsFox|Marketing,Advertising,Data & Analytics|https://www.producthunt.com/products/goodsfox
+2025-08-23|DeepSeek-V3.1|Artificial Intelligence,LLMs,AI Chatbots|https://www.producthunt.com/products/deepseek
+2025-08-23|GitArsenal|Developer Tools,Artificial Intelligence,GitHub|https://www.producthunt.com/products/gitarsenal
+2025-08-23|ProfileSpider|Chrome Extensions,Productivity,Artificial Intelligence|https://www.producthunt.com/products/profilespider
+2025-08-23|Omnara|Open Source,Developer Tools,Artificial Intelligence|https://www.producthunt.com/products/omnara
+2025-08-23|ViewMe|Open Source,3D Modeling|https://www.producthunt.com/products/viewme
+2025-08-23|inZOI|Virtual Reality,Simulation Games,Games|https://www.producthunt.com/products/inzoi-2
+2025-08-23|Musical Drones|Drones,Health & Fitness,Music|https://www.producthunt.com/products/musical-drones
+2025-08-23|From Text to Stunning Visuals: Why Nano Banana Could Redefine AI Creativity (Coming Soon on Textideo)|AI,Text-to-Image,Creative Tools|https://www.indiehackers.com/post/from-text-to-stunning-visuals-why-nano-banana-could-redefine-ai-creativity-coming-soon-on-textideo-3b2b56f4b7
+2025-08-23|Want a SaaS idea that sells? Borrow it from 1-star reviews|SaaS,Startup,Ideation|https://www.indiehackers.com/post/want-a-saas-idea-that-sells-borrow-it-from-1-star-reviews-e1144022b7
