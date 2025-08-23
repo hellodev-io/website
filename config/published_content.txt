@@ -141,3 +141,21 @@
 2025-08-23|Musical Drones|Drones,Health & Fitness,Music|https://www.producthunt.com/products/musical-drones
 2025-08-23|From Text to Stunning Visuals: Why Nano Banana Could Redefine AI Creativity (Coming Soon on Textideo)|AI,Text-to-Image,Creative Tools|https://www.indiehackers.com/post/from-text-to-stunning-visuals-why-nano-banana-could-redefine-ai-creativity-coming-soon-on-textideo-3b2b56f4b7
 2025-08-23|Want a SaaS idea that sells? Borrow it from 1-star reviews|SaaS,Startup,Ideation|https://www.indiehackers.com/post/want-a-saas-idea-that-sells-borrow-it-from-1-star-reviews-e1144022b7
+2025-08-24|HKUDS/DeepCode: Open Agentic Coding|llm-agent,agentic-coding,Paper2Code|https://github.com/HKUDS/DeepCode
+2025-08-24|winapps-org / winapps|windows,linux,docker|https://github.com/winapps-org/winapps
+2025-08-24|scottpetrovic / mesh2motion-app|3D,Animation,Web|https://github.com/scottpetrovic/mesh2motion-app
+2025-08-24|puckeditor / puck|React,Visual Editor,Open Source|https://github.com/puckeditor/puck
+2025-08-24|deepseek-ai / awesome-deepseek-integration|DeepSeek,API,integration|https://github.com/deepseek-ai/awesome-deepseek-integration
+2025-08-24|winapps-org / winapps|windows,linux,docker|https://github.com/winapps-org/winapps
+2025-08-24|zigtools / zls|language-server,zig,language-server-protocol|https://github.com/zigtools/zls
+2025-08-24|zigtools / zls|language-server,zig,language-server-protocol|https://github.com/zigtools/zls
+2025-08-24|DreamFlow|Video editing,AI Generative Art,Design Tools|https://www.producthunt.com/products/dreamflow-2
+2025-08-24|ReachLLM|Marketing,SEO,Artificial Intelligence|https://www.producthunt.com/products/reachllm
+2025-08-24|vibes.rehab|Productivity,Developer Tools,Artificial Intelligence|https://www.producthunt.com/products/vibes-rehab
+2025-08-24|Deforge: Canva for AI Agents|SaaS,Artificial Intelligence,No-Code|https://www.producthunt.com/products/deforge-open-beta
+2025-08-24|Daily Grind. Menubar time tracker|Freelance,Time Tracking,Menu Bar Apps|https://www.producthunt.com/products/breww-beta-macos-time-tracker
+2025-08-24|Madespace|Design Tools,Home,Interior design|https://www.producthunt.com/products/madespace
+2025-08-24|Redis Cloud|Developer Tools,Development,Database|https://www.producthunt.com/products/redis-cloud
+2025-08-24|Chizgi - Free AI Stock Images|Design Tools,Marketing,Artificial Intelligence|https://www.producthunt.com/products/chizgi-free-ai-stock-images
+2025-08-24|Writing Speed-of-Light Flash Attention for 5090 in CUDA C++|CUDA,Flash Attention,GPU Optimization|https://gau-nernst.github.io/fa-5090/
+2025-08-24|How I Got 500+ SaaS Signups in 45 Days Without Spending $1 on Ads|内容营销,SEO,社区增长|https://www.indiehackers.com/post/how-i-got-500-saas-signups-in-45-days-without-spending-1-on-ads-7a4e14a3fb
