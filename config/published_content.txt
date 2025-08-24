@@ -159,3 +159,21 @@
 2025-08-24|Chizgi - Free AI Stock Images|Design Tools,Marketing,Artificial Intelligence|https://www.producthunt.com/products/chizgi-free-ai-stock-images
 2025-08-24|Writing Speed-of-Light Flash Attention for 5090 in CUDA C++|CUDA,Flash Attention,GPU Optimization|https://gau-nernst.github.io/fa-5090/
 2025-08-24|How I Got 500+ SaaS Signups in 45 Days Without Spending $1 on Ads|内容营销,SEO,社区增长|https://www.indiehackers.com/post/how-i-got-500-saas-signups-in-45-days-without-spending-1-on-ads-7a4e14a3fb
+2025-08-25|django / django|python,django,web-framework|https://github.com/django/django
+2025-08-25|yt-dlp / yt-dlp|python,cli,downloader|https://github.com/yt-dlp/yt-dlp
+2025-08-25|Klipper3d / klipper|3D printing,firmware,Klipper|https://github.com/Klipper3d/klipper
+2025-08-25|EbookFoundation / free-programming-books|education,list,books|https://github.com/EbookFoundation/free-programming-books
+2025-08-25|midday-ai / midday|finance,typescript,nextjs|https://github.com/midday-ai/midday
+2025-08-25|nunchaku-tech / ComfyUI-nunchaku|flux,quantization,diffusion|https://github.com/nunchaku-tech/ComfyUI-nunchaku
+2025-08-25|TheAlgorithms / Java|java,algorithm,algorithms|https://github.com/TheAlgorithms/Java
+2025-08-25|EbookFoundation / free-programming-books|education,list,books|https://github.com/EbookFoundation/free-programming-books
+2025-08-25|Grok 2.5 (OSS Ver.)|Open Source,Artificial Intelligence,Development|https://www.producthunt.com/products/grok-2-5-oss-ver
+2025-08-25|VibeFlow|Website Builder,No-Code,Vibe coding|https://www.producthunt.com/products/vibeflow
+2025-08-25|Informed|News,Audio,AI|https://www.producthunt.com/products/informed
+2025-08-25|pixxel|Chrome Extensions,Developer Tools,Tech|https://www.producthunt.com/products/pixxel
+2025-08-25|RetroUI Pro|UI frameworks,Design Tools,Website Builder|https://www.producthunt.com/products/retro-ui
+2025-08-25|ChatGPT Marketing||https://www.producthunt.com/products/chatgpt-marketing
+2025-08-25|PerformaMeter|Funny Games,Artificial Intelligence,FemTech|https://www.producthunt.com/products/performameter
+2025-08-25|Getting acqui-hired after seven years of building|acqui-hire,indie hacking,ai|https://www.indiehackers.com/post/tech/getting-acqui-hired-after-seven-years-of-building-g9SG7tZ85NrHvXyMvwXP
+2025-08-25|KiForm||https://www.producthunt.com/products/kiform
+2025-08-25|From SEO Executive to SaaS founder: My zero-budget launch strategy that actually worked|SEO,SaaS,内容营销|https://www.indiehackers.com/post/from-seo-executive-to-saas-founder-my-zero-budget-launch-strategy-that-actually-worked-PI3JpD78nOciML2J7SiK
