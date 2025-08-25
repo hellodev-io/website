@@ -177,3 +177,21 @@
 2025-08-25|Getting acqui-hired after seven years of building|acqui-hire,indie hacking,ai|https://www.indiehackers.com/post/tech/getting-acqui-hired-after-seven-years-of-building-g9SG7tZ85NrHvXyMvwXP
 2025-08-25|KiForm||https://www.producthunt.com/products/kiform
 2025-08-25|From SEO Executive to SaaS founder: My zero-budget launch strategy that actually worked|SEO,SaaS,内容营销|https://www.indiehackers.com/post/from-seo-executive-to-saas-founder-my-zero-budget-launch-strategy-that-actually-worked-PI3JpD78nOciML2J7SiK
+2025-08-26|karpathy / nn-zero-to-hero|neural-networks,machine-learning,deep-learning|https://github.com/karpathy/nn-zero-to-hero
+2025-08-26|microsoft / generative-ai-for-beginners|ai,azure,transformers|https://github.com/microsoft/generative-ai-for-beginners
+2025-08-26|willccbb / verifiers|LLM,Reinforcement Learning,RL|https://github.com/willccbb/verifiers
+2025-08-26|anuraghazra / github-readme-stats|serverless,dynamic,hacktoberfest|https://github.com/anuraghazra/github-readme-stats
+2025-08-26|asgeirtj / system_prompts_leaks|ai,gemini,openai|https://github.com/asgeirtj/system_prompts_leaks
+2025-08-26|GitHubDaily / GitHubDaily|github,javascript,python|https://github.com/GitHubDaily/GitHubDaily
+2025-08-26|spotDL / spotify-downloader|python,music,playlists|https://github.com/spotDL/spotify-downloader
+2025-08-26|rothgar / awesome-tuis|terminal,tui,awesome-list|https://github.com/rothgar/awesome-tuis
+2025-08-26|Trace|Productivity,Artificial Intelligence,No-Code|https://www.producthunt.com/products/trace
+2025-08-26|Qoder|Productivity,Developer Tools,Artificial Intelligence|https://www.producthunt.com/products/qoder
+2025-08-26|TraceRoot.AI|Open Source,SaaS,Developer Tools|https://www.producthunt.com/products/traceroot-ai
+2025-08-26|Tab With a View 2.0|Chrome Extensions,Productivity,Travel|https://www.producthunt.com/products/tab-with-a-view
+2025-08-26|Re:Connect|User Experience,Tech,Webcam|https://www.producthunt.com/products/re-connect
+2025-08-26|Walk the World|Health & Fitness,Games,Hiking|https://www.producthunt.com/products/walk-the-world
+2025-08-26|AI Elements by Vercel|Open Source,Developer Tools,Artificial Intelligence|https://www.producthunt.com/products/vercel
+2025-08-26|Onlook for Web|Design Tools,Open Source,Web Tools|https://www.producthunt.com/products/onlook-2
+2025-08-26|Why I Built RedChecker.io|startup story,reddit tool,ai analytics|https://www.indiehackers.com/product/redchecker?post=F5mRu4GBHN0JtameFuCE
+2025-08-26|Hitting a high 6-figure ARR thanks to first-mover advantage and an AI tech moat|AI,Startup,SaaS|https://www.indiehackers.com/post/tech/hitting-a-high-6-figure-arr-thanks-to-first-mover-advantage-and-an-ai-tech-moat-v3lMstbEzxkheKuLf7cH
