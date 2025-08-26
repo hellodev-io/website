@@ -195,3 +195,21 @@
 2025-08-26|Onlook for Web|Design Tools,Open Source,Web Tools|https://www.producthunt.com/products/onlook-2
 2025-08-26|Why I Built RedChecker.io|startup story,reddit tool,ai analytics|https://www.indiehackers.com/product/redchecker?post=F5mRu4GBHN0JtameFuCE
 2025-08-26|Hitting a high 6-figure ARR thanks to first-mover advantage and an AI tech moat|AI,Startup,SaaS|https://www.indiehackers.com/post/tech/hitting-a-high-6-figure-arr-thanks-to-first-mover-advantage-and-an-ai-tech-moat-v3lMstbEzxkheKuLf7cH
+2025-08-27|MODSetter / SurfSense|python,typescript,ai|https://github.com/MODSetter/SurfSense
+2025-08-27|Hands-On Large Language Models|book,artificial-intelligence,oreilly|https://github.com/HandsOnLLM/Hands-On-Large-Language-Models
+2025-08-27|IBM / mcp-context-forge|python,docker,kubernetes|https://github.com/IBM/mcp-context-forge
+2025-08-27|eythaann / Seelen-UI|windows,wallpaper,web|https://github.com/eythaann/Seelen-UI
+2025-08-27|tw93 / Pake|rust,tauri,desktop-app|https://github.com/tw93/Pake
+2025-08-27|opf / openproject|ruby,project-planning,roadmap|https://github.com/opf/openproject
+2025-08-27|onlook-dev / onlook||https://github.com/onlook-dev/onlook
+2025-08-27|vanshb03 / Summer2026-Internships|university,jobs,internships|https://github.com/vanshb03/Summer2026-Internships
+2025-08-27|Risely AI|Education,SaaS,Artificial Intelligence|https://www.producthunt.com/products/risely-ai
+2025-08-27|MCP Builder by AG2|API,Open Source,Artificial Intelligence|https://mcp.ag2.ai/?ref=producthunt
+2025-08-27|Globe Map for Framer|Design Tools,No-Code,3D Modeling|https://www.producthunt.com/products/globe-map-for-framer
+2025-08-27|MiniCPM-V 4.5||https://www.producthunt.com/products/minicpm-4-0
+2025-08-27|Doksy|Developer Tools,GitHub,Documentation|https://www.producthunt.com/products/doksy
+2025-08-27|LinkedIn MCP|API,LinkedIn,Marketing automation|https://www.producthunt.com/products/linkedin-mcp
+2025-08-27|Cosmic AI Platform|Software Engineering,Developer Tools,Artificial Intelligence|https://www.producthunt.com/products/cosmic
+2025-08-27|NinjaDoc Ai|API,Developer Tools,Artificial Intelligence|https://ninjadoc.ai/?ref=producthunt
+2025-08-27|Flight - Email Marketing Tool: The Agency Guide to Bulk Email in 2025|email marketing,bulk email,marketing agencies|https://www.indiehackers.com/product/flight-email-marketing-tool?post=ID49LoVx3VEEfJkXLiaf
+2025-08-27|Textideo Veo3 vs. OpenAI Sora: 2025 Side-by-Side Comparison|AI video generation,Textideo Veo3,OpenAI Sora|https://www.indiehackers.com/post/textideo-veo3-vs-openai-sora-2025-side-by-side-comparison-7f5d17d69a
