@@ -231,3 +231,21 @@
 2025-08-28|NotchFlow|Mac,Productivity,Music|https://www.producthunt.com/products/notchflow
 2025-08-28|Nano Banana isn't just a fun name, it's the consistency engine we've been waiting for|AI,Image Editing,Consistency|https://www.indiehackers.com/post/nano-banana-isn-t-just-a-fun-name-it-s-the-consistency-engine-we-ve-been-waiting-for-e78bef02ea
 2025-08-28|Leaving a funded startup and bootstrapping to $1M/yr in 18 months|Bootstrapping,Startup,Entrepreneurship|https://www.indiehackers.com/post/tech/leaving-a-funded-startup-and-bootstrapping-to-1m-yr-in-18-months-kPBpdxsTeQitOWOOVs2g
+2025-08-29|hashicorp / terraform|cloud,graph,terraform|https://github.com/hashicorp/terraform
+2025-08-29|hashicorp / terraform|cloud,graph,terraform|https://github.com/hashicorp/terraform
+2025-08-29|microsoft / qlib|python,platform,finance|https://github.com/microsoft/qlib
+2025-08-29|Canner / WrenAI|agent,bigquery,charts|https://github.com/Canner/WrenAI
+2025-08-29|Canner / WrenAI|agent,bigquery,charts|https://github.com/Canner/WrenAI
+2025-08-29|chroma-core / chroma|rust,database,ai|https://github.com/chroma-core/chroma
+2025-08-29|chroma-core / chroma|rust,database,ai|https://github.com/chroma-core/chroma
+2025-08-29|louislam / uptime-kuma|docker,monitor,monitoring|https://github.com/louislam/uptime-kuma
+2025-08-29|HiveMind|Hiring,Productivity,Tech|https://www.producthunt.com/products/hivemind-ai
+2025-08-29|Eternal AI|Productivity,Artificial Intelligence,No-Code|https://www.producthunt.com/products/nobullshit-exe
+2025-08-29|apiJuice|Productivity,API,Artificial Intelligence|https://www.producthunt.com/products/apijuice
+2025-08-29|QWQ-Max: Advanced LLM by Alibaba with "Thinking Mode"|API,Open Source,Artificial Intelligence|https://www.producthunt.com/products/qwq-max
+2025-08-29|Marblism|Productivity,Social Media,Artificial Intelligence|https://www.producthunt.com/products/marblism-2
+2025-08-29|KomikoAI Video to Video|Artificial Intelligence,Animation,Video|https://www.producthunt.com/products/framepack-ai-video-generator
+2025-08-29|Macrowave|Productivity,Music|https://www.producthunt.com/products/macrowave
+2025-08-29|Dreambase.ai|Developer Tools,Artificial Intelligence,Data & Analytics|https://www.producthunt.com/products/dreambase-ai
+2025-08-29|Transform Your Content Game with AI-Powered Video|AI,video creation,content strategy|https://www.indiehackers.com/post/transform-your-content-game-with-ai-powered-video-f955098888
+2025-08-29|From layoff to $15k/mo agency and $9k/mo M&A marketplace|Companies,Founder,Revenue|https://www.indiehackers.com/post/tech/from-layoff-to-15k-mo-agency-and-9k-mo-m-a-marketplace-BV26fA9JVyGXuYbP5vJB
