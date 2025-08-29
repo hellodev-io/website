@@ -249,3 +249,15 @@
 2025-08-29|Dreambase.ai|Developer Tools,Artificial Intelligence,Data & Analytics|https://www.producthunt.com/products/dreambase-ai
 2025-08-29|Transform Your Content Game with AI-Powered Video|AI,video creation,content strategy|https://www.indiehackers.com/post/transform-your-content-game-with-ai-powered-video-f955098888
 2025-08-29|From layoff to $15k/mo agency and $9k/mo M&A marketplace|Companies,Founder,Revenue|https://www.indiehackers.com/post/tech/from-layoff-to-15k-mo-agency-and-9k-mo-m-a-marketplace-BV26fA9JVyGXuYbP5vJB
+2025-08-30|OpenBMB / MiniCPM-V|multi-modal,minicpm,minicpm-v|https://github.com/OpenBMB/MiniCPM-V
+2025-08-30|transformerlab / transformerlab-app|electron,transformers,llama|https://github.com/transformerlab/transformerlab-app
+2025-08-30|Microsoft Model Context Protocol (MCP) Servers|AI,Microsoft,MCP|https://github.com/microsoft/mcp
+2025-08-30|TheAlgorithms / Python|python,education,algorithm|https://github.com/TheAlgorithms/Python
+2025-08-30|humanlayer / humanlayer|ai,approval-process,agents|https://github.com/humanlayer/humanlayer
+2025-08-30|mercurjs / mercur|nodejs,javascript,open-source|https://github.com/mercurjs/mercur
+2025-08-30|juspay / hyperswitch|rust,redis,open-source|https://github.com/juspay/hyperswitch
+2025-08-30|nats-io / nats-server|go,golang,distributed-systems|https://github.com/nats-io/nats-server
+2025-08-30|I Built PeekShot to Automate Website Screenshots — Now I Save 97% of My Time ⏱️|SaaS,Developer Tools,Automation|https://www.indiehackers.com/product/peekshot?post=eznUAy0X9P6r3TLqcB0x
+2025-08-30|What AI chatbots are actually doing under the hood|AI,Python,LLM from scratch|https://www.gilesthomas.com/2025/08/what-ai-chatbots-are-doing-under-the-hood
+2025-08-30|Thoughts on AI, Intelligence, and Knowledge|Artificial Intelligence,Philosophy,Society|https://kudmitry.com/articles/thoughts-on-ai-intelligence-and-knowledge/
+2025-08-30|Nano Banana AI: More Than a Meme, a Powerful AI Image Editing Tool|AI Image Editing,Text-to-Image,Image-to-Image|https://www.indiehackers.com/post/nano-banana-ai-more-than-a-meme-a-powerful-ai-image-editing-tool-979b232d3b
