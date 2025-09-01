@@ -279,3 +279,21 @@
 2025-09-01|UseArticle: Turn any product url into profitable affiliate website|Marketing,SEO,Affiliate marketing|https://www.producthunt.com/products/usearticle-urls-to-affiliate-website
 2025-09-01|Jujutsu for everyone|version control,git,jujutsu|https://jj-for-everyone.github.io/
 2025-09-01|HustleAdvisor: ChatGPT recommended my product to a random person|AI,marketing,product discovery|https://www.indiehackers.com/product/hustleadvisor?post=j4NOiwK0oGVQSf5GV0XA
+2025-09-02|resemble-ai / chatterbox|TTS,Open Source,AI|https://github.com/resemble-ai/chatterbox
+2025-09-02|lllyasviel / Fooocus|image-generation,stable-diffusion,ai|https://github.com/lllyasviel/Fooocus
+2025-09-02|ashishpatel26 / 500-AI-Agents-Projects|ai-agents,genai|https://github.com/ashishpatel26/500-AI-Agents-Projects
+2025-09-02|denizsafak / abogen|text-to-speech,audiobook,tts|https://github.com/denizsafak/abogen
+2025-09-02|ashishpatel26 / 500-AI-Agents-Projects|ai-agents,genai|https://github.com/ashishpatel26/500-AI-Agents-Projects
+2025-09-02|denizsafak / abogen|text-to-speech,audiobook,tts|https://github.com/denizsafak/abogen
+2025-09-02|zakirullin / cognitive-load|cognitive-load,software-development,code-quality|https://github.com/zakirullin/cognitive-load
+2025-09-02|zakirullin / cognitive-load|cognitive-load,software-development,code-quality|https://github.com/zakirullin/cognitive-load
+2025-09-02|AbleMouse|Internet of Things,GitHub,Health|https://www.producthunt.com/products/ablemouse-control-with-tongue-or-touch
+2025-09-02|xpander.ai|Slack,Developer Tools,Artificial Intelligence|https://www.producthunt.com/products/xpander-ai
+2025-09-02|JoggAI AvatarX|Artificial Intelligence,Photo & Video,Social media marketing|https://www.producthunt.com/products/jogg-ai
+2025-09-02|Dhisana AI|Sales,SaaS,Artificial Intelligence|https://www.producthunt.com/products/dhisana-ai
+2025-09-02|GitHub Copilot for Raycast|Productivity,Developer Tools,Artificial Intelligence|https://www.producthunt.com/products/github-copilot
+2025-09-02|Lumi.new|No-Code App Builder,No-Code Website Builder,Developer Tools|https://www.producthunt.com/products/lumi-new-2
+2025-09-02|Genspark AI Designer|Design Tools,Artificial Intelligence,Design|https://www.producthunt.com/products/genspark
+2025-09-02|fwt. axis|Apple Watch,Health & Fitness|https://www.producthunt.com/products/fwt-axis
+2025-09-02|The leverage paradox|AI,technology,workplace|https://www.indiehackers.com/post/lifestyle/the-leverage-paradox-ksRiX6y6W7NzfBE57dzt
+2025-09-02|Reluctantly building a productized agency and hitting $1M/yr in two years|经验讨论|https://www.indiehackers.com/post/services/reluctantly-building-a-productized-agency-and-hitting-1m-yr-in-two-years-jyU3Rf1v7Bkvl69p9iCv
