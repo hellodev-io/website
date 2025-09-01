@@ -261,3 +261,21 @@
 2025-08-30|What AI chatbots are actually doing under the hood|AI,Python,LLM from scratch|https://www.gilesthomas.com/2025/08/what-ai-chatbots-are-doing-under-the-hood
 2025-08-30|Thoughts on AI, Intelligence, and Knowledge|Artificial Intelligence,Philosophy,Society|https://kudmitry.com/articles/thoughts-on-ai-intelligence-and-knowledge/
 2025-08-30|Nano Banana AI: More Than a Meme, a Powerful AI Image Editing Tool|AI Image Editing,Text-to-Image,Image-to-Image|https://www.indiehackers.com/post/nano-banana-ai-more-than-a-meme-a-powerful-ai-image-editing-tool-979b232d3b
+2025-09-01|JetBrains / koog|kotlin,java,ai|https://github.com/JetBrains/koog
+2025-09-01|paperless-ngx / paperless-ngx|pdf,machine-learning,django|https://github.com/paperless-ngx/paperless-ngx
+2025-09-01|dockur / windows|windows,docker,docker-container|https://github.com/dockur/windows
+2025-09-01|laramies / theHarvester|python,osint,discovery|https://github.com/laramies/theHarvester
+2025-09-01|gunnarmorling / 1brc|Java,performance,optimization|https://github.com/gunnarmorling/1brc
+2025-09-01|activepieces / activepieces|workflow,mcp,workflows|https://github.com/activepieces/activepieces
+2025-09-01|elixir-lang / expert|elixir,language-server-protocol,lsp|https://github.com/elixir-lang/expert
+2025-09-01|bevyengine / bevy|rust,open-source,gamedev|https://github.com/bevyengine/bevy
+2025-09-01|Technical SEO MCP|Marketing,SEO,Developer Tools|https://www.producthunt.com/products/technical-seo-mcp
+2025-09-01|Byterover 2.0|Productivity,Developer Tools,Artificial Intelligence|https://www.producthunt.com/products/byterover
+2025-09-01|Google Whisk 3.0|Design Tools,Artificial Intelligence,Graphics & Design|https://www.producthunt.com/products/google-labs
+2025-09-01|UTCP Agent|Open Source,Developer Tools,Artificial Intelligence|https://github.com/universal-tool-calling-protocol/utcp-agent
+2025-09-01|Byterover 2.0|Productivity,Developer Tools,Artificial Intelligence|https://www.producthunt.com/products/byterover
+2025-09-01|A01: Your personal news agent|Productivity,Newsletter platforms,News|https://www.producthunt.com/products/a01
+2025-09-01|Nuraform|Productivity,Design & Creative,Survey and form builders|https://www.producthunt.com/products/nuraform
+2025-09-01|UseArticle: Turn any product url into profitable affiliate website|Marketing,SEO,Affiliate marketing|https://www.producthunt.com/products/usearticle-urls-to-affiliate-website
+2025-09-01|Jujutsu for everyone|version control,git,jujutsu|https://jj-for-everyone.github.io/
+2025-09-01|HustleAdvisor: ChatGPT recommended my product to a random person|AI,marketing,product discovery|https://www.indiehackers.com/product/hustleadvisor?post=j4NOiwK0oGVQSf5GV0XA
