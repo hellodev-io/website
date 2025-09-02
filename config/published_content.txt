@@ -297,3 +297,21 @@
 2025-09-02|fwt. axis|Apple Watch,Health & Fitness|https://www.producthunt.com/products/fwt-axis
 2025-09-02|The leverage paradox|AI,technology,workplace|https://www.indiehackers.com/post/lifestyle/the-leverage-paradox-ksRiX6y6W7NzfBE57dzt
 2025-09-02|Reluctantly building a productized agency and hitting $1M/yr in two years|经验讨论|https://www.indiehackers.com/post/services/reluctantly-building-a-productized-agency-and-hitting-1m-yr-in-two-years-jyU3Rf1v7Bkvl69p9iCv
+2025-09-03|pedroslopez / whatsapp-web.js|api,bot,bot-api|https://github.com/pedroslopez/whatsapp-web.js
+2025-09-03|crewAIInc / crewAI|ai,agents,ai-agents|https://github.com/crewAIInc/crewAI
+2025-09-03|crewAIInc / crewAI|ai,agents,ai-agents|https://github.com/crewAIInc/crewAI
+2025-09-03|google/mangle|Datalog,deductive database,Go|https://github.com/google/mangle
+2025-09-03|rustdesk / rustdesk|android,windows,macos|https://github.com/rustdesk/rustdesk
+2025-09-03|google / comprehensive-rust|android,training,rust|https://github.com/google/comprehensive-rust
+2025-09-03|projectdiscovery / nuclei-templates|security,fingerprint,exploits|https://github.com/projectdiscovery/nuclei-templates
+2025-09-03|LukeGus / Termix|docker,ssh,self-hosted|https://github.com/LukeGus/Termix
+2025-09-03|Receiptor AI 2.0|Productivity,Artificial Intelligence,Finance|https://www.producthunt.com/products/receiptor-ai
+2025-09-03|Bhava|Productivity,Artificial Intelligence,Drawing|https://www.producthunt.com/products/bhava
+2025-09-03|CatDoes|Artificial Intelligence,No-Code,Vibe coding|https://www.producthunt.com/products/catdoes-2
+2025-09-03|Bugster|Testing and QA software,Developer Tools,Artificial Intelligence|https://www.producthunt.com/products/bugster
+2025-09-03|fileAI MCP|Productivity,Developer Tools,Artificial Intelligence|https://www.producthunt.com/products/fileai-ai-ocr
+2025-09-03|Copilot Audio Expressions|Artificial Intelligence,Audio|https://www.producthunt.com/products/the-new-microsoft-copilot
+2025-09-03|Upvoted: Vote on features that count, with ease.|Productivity,SaaS|https://www.producthunt.com/products/upvoted-3
+2025-09-03|Floor796||https://www.producthunt.com/products/floor796
+2025-09-03|wan2-2 & Veo3: Two Paths in AI Video Generation|AI,video generation,wan2-2|https://www.indiehackers.com/post/wan2-2-veo3-two-paths-in-ai-video-generation-f8861625ef
+2025-09-03|Textideo: Building a One-Stop AI Pipeline for Script-to-Movie Generation|AI,Video Generation,Script-to-Movie|https://www.indiehackers.com/post/textideo-building-a-one-stop-ai-pipeline-for-script-to-movie-generation-e1631005d5
